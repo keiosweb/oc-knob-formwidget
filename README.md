@@ -2,7 +2,7 @@
 
 **A touch friendly widget to handle numeric fields for OctoberCMS**
 
-(jQuery Knob)[https://github.com/aterrien/jQuery-Knob] wrapper for October backend forms.
+[jQuery Knob](https://github.com/aterrien/jQuery-Knob) wrapper for October backend forms.
 
 Used here jQuery Knob is © 2012 Anthony Terrien under the MIT license.
 

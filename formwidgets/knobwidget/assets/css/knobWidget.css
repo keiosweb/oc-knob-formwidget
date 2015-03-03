@@ -1,0 +1,17 @@
+.knobwidget-container {
+    display: table;
+}
+
+.knob-row {
+    display: table-row;
+}
+
+.knob {
+    display: table-cell;
+}
+
+.knob-field {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+}

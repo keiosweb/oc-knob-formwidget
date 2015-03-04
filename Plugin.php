@@ -16,8 +16,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name' => 'keios.knobWidget::lang.labels.pluginName',
-            'description' => 'keios.knobWidget::lang.labels.pluginDescription',
+            'name' => 'keios.knobwidget::lang.labels.pluginName',
+            'description' => 'keios.knobwidget::lang.labels.pluginDescription',
             'author' => 'Keios',
             'icon' => 'icon-cog'
         ];
@@ -27,7 +27,7 @@ class Plugin extends PluginBase
     {
         return [
             'Keios\KnobWidget\FormWidgets\KnobWidget' => [
-                'label' => 'keios.knobWidget::lang.labels.knobFormWidget',
+                'label' => 'keios.knobwidget::lang.labels.knobFormWidget',
                 'code' => 'knob'
             ]
         ];

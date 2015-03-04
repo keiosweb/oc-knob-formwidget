@@ -7,8 +7,8 @@ class KnobWidget extends FormWidgetBase
     public function widgetDetails()
     {
         return [
-            'name' => 'keios.knobWidget::lang.labels.knobFormWidget',
-            'description' => 'keios.knobWidget::lang.labels.kFwDescription'
+            'name' => 'keios.knobwidget::lang.labels.knobFormWidget',
+            'description' => 'keios.knobwidget::lang.labels.kFwDescription'
         ];
     }
 

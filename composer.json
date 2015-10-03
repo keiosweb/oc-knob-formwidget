@@ -1,0 +1,12 @@
+{
+    "name": "keios/knobwidget",
+    "description": "Knob FormWidget for OctoberCMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Łukasz Biały",
+            "email": "lukasz@keios.eu"
+        }
+    ],
+    "require": {}
+}

@@ -2,8 +2,15 @@
 
 use Backend\Classes\FormWidgetBase;
 
+/**
+ * Class KnobWidget
+ * @package Keios\KnobWidget\FormWidgets
+ */
 class KnobWidget extends FormWidgetBase
 {
+    /**
+     * @return array
+     */
     public function widgetDetails()
     {
         return [
@@ -12,12 +19,19 @@ class KnobWidget extends FormWidgetBase
         ];
     }
 
+    /**
+     * init Method
+     */
     public function init()
     {
         $this->addJs('js/jquery.knob.min.js');
         $this->addCss('css/knobWidget.css');
     }
 
+    /**
+     * @return mixed
+     * @throws \SystemException
+     */
     public function render()
     {
         $this->prepareVars();
@@ -65,6 +79,11 @@ class KnobWidget extends FormWidgetBase
         }
     }
 
+    /**
+     * @param \Backend\Classes\The $value
+     *
+     * @return \Backend\Classes\The
+     */
     public function getSaveValue($value)
     {
         return $value;
